@@ -1,7 +1,7 @@
 if(!(process.argv[2]&&process.argv[3])) {
 
 	console.log(process.argv[2]);
-	console.log("Please pass in the following variables: SID, Auth");
+	console.log("Please pass in the following variables: SID, Auth, IP Messaging Instance SID");
 	process.exit(1);
 
 }
